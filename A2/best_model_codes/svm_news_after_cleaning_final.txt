@@ -1,0 +1,101 @@
+svm starts
+Best params: {'svm__C': 0.15, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 2), 'vect__strip_accents': 'unicode'}
+Validation results: {'mean_fit_time': array([  5.07170014,  82.59976859,  85.95724883,  10.81581616,
+        84.52406669,  87.80878778,  10.43103471,  84.30819149,
+        87.52954745,  15.62746291, 123.06942935, 119.45509906]), 'std_fit_time': array([ 0.14168573, 13.30285776,  5.17231255,  2.65815099, 14.43760487,
+       12.14572033,  3.4861843 , 16.21142517,  6.05111015,  7.7524406 ,
+       22.62181687, 11.2505542 ]), 'mean_score_time': array([0.40097065, 0.84751635, 0.53689342, 0.59605923, 0.88909025,
+       0.54268947, 0.40616865, 0.87889724, 0.547088  , 0.40856471,
+       0.63842912, 0.39457836]), 'std_score_time': array([0.1009716 , 0.07901709, 0.03144806, 0.07120592, 0.1632265 ,
+       0.04950732, 0.03365272, 0.10467561, 0.03808586, 0.02814401,
+       0.18272189, 0.14571424]), 'param_svm__C': masked_array(data=[0.15, 0.15, 0.15, 0.77, 0.77, 0.77, 1, 1, 1, 10, 10,
+                   10],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svm__loss': masked_array(data=['hinge', 'hinge', 'hinge', 'hinge', 'hinge', 'hinge',
+                   'hinge', 'hinge', 'hinge', 'hinge', 'hinge', 'hinge'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svm__max_iter': masked_array(data=[5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000,
+                   5000, 5000, 5000],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svm__multi_class': masked_array(data=['ovr', 'ovr', 'ovr', 'ovr', 'ovr', 'ovr', 'ovr', 'ovr',
+                   'ovr', 'ovr', 'ovr', 'ovr'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_svm__penalty': masked_array(data=['l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2', 'l2',
+                   'l2', 'l2', 'l2'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_vect__analyzer': masked_array(data=['word', 'word', 'word', 'word', 'word', 'word', 'word',
+                   'word', 'word', 'word', 'word', 'word'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_vect__binary': masked_array(data=[True, True, True, True, True, True, True, True, True,
+                   True, True, True],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_vect__ngram_range': masked_array(data=[(1, 1), (1, 2), (2, 2), (1, 1), (1, 2), (2, 2), (1, 1),
+                   (1, 2), (2, 2), (1, 1), (1, 2), (2, 2)],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'param_vect__strip_accents': masked_array(data=['unicode', 'unicode', 'unicode', 'unicode', 'unicode',
+                   'unicode', 'unicode', 'unicode', 'unicode', 'unicode',
+                   'unicode', 'unicode'],
+             mask=[False, False, False, False, False, False, False, False,
+                   False, False, False, False],
+       fill_value='?',
+            dtype=object), 'params': [{'svm__C': 0.15, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 1), 'vect__strip_accents': 'unicode'}, {'svm__C': 0.15, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 0.15, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (2, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 0.77, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 1), 'vect__strip_accents': 'unicode'}, {'svm__C': 0.77, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 0.77, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (2, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 1, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 1), 'vect__strip_accents': 'unicode'}, {'svm__C': 1, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 1, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (2, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 10, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 1), 'vect__strip_accents': 'unicode'}, {'svm__C': 10, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (1, 2), 'vect__strip_accents': 'unicode'}, {'svm__C': 10, 'svm__loss': 'hinge', 'svm__max_iter': 5000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2', 'vect__analyzer': 'word', 'vect__binary': True, 'vect__ngram_range': (2, 2), 'vect__strip_accents': 'unicode'}], 'split0_test_score': array([0.74502872, 0.75033142, 0.59655325, 0.71807335, 0.73442333,
+       0.59036677, 0.71807335, 0.73309766, 0.58948299, 0.70923553,
+       0.72646929, 0.58683164]), 'split1_test_score': array([0.74149359, 0.74414494, 0.61555457, 0.71100309, 0.73044631,
+       0.60141405, 0.70790985, 0.73044631, 0.5992046 , 0.70083959,
+       0.72691118, 0.59522757]), 'split2_test_score': array([0.74768007, 0.74856385, 0.61069377, 0.71542201, 0.73353955,
+       0.6040654 , 0.70923553, 0.73265577, 0.60229783, 0.69818825,
+       0.73309766, 0.59655325]), 'split3_test_score': array([0.75209898, 0.74944764, 0.63146266, 0.71807335, 0.73795846,
+       0.6190897 , 0.71409633, 0.73840035, 0.6195316 , 0.69995581,
+       0.72867875, 0.61643836]), 'split4_test_score': array([0.75066313, 0.75950486, 0.61715296, 0.72811671, 0.74137931,
+       0.60565871, 0.72413793, 0.7418214 , 0.60742706, 0.71485411,
+       0.73563218, 0.60477454]), 'mean_test_score': array([0.7473929 , 0.75039854, 0.61428344, 0.7181377 , 0.73554939,
+       0.60411893, 0.7146906 , 0.7352843 , 0.60358881, 0.70461466,
+       0.73015781, 0.59996507]), 'std_test_score': array([0.00382924, 0.00502608, 0.01124474, 0.00561901, 0.00377202,
+       0.00919713, 0.00594617, 0.00418426, 0.00988703, 0.00637893,
+       0.00360402, 0.01001071]), 'rank_test_score': array([ 2,  1,  9,  6,  3, 10,  7,  4, 11,  8,  5, 12])}
+Test accuracy: 0.699196176314392
+Classification report:               precision    recall  f1-score   support
+
+           0       0.53      0.48      0.50       319
+           1       0.64      0.68      0.66       389
+           2       0.62      0.61      0.62       394
+           3       0.64      0.63      0.64       392
+           4       0.70      0.69      0.69       385
+           5       0.75      0.73      0.74       395
+           6       0.50      0.83      0.62       390
+           7       0.76      0.70      0.73       396
+           8       0.75      0.75      0.75       398
+           9       0.80      0.82      0.81       397
+          10       0.86      0.88      0.87       399
+          11       0.80      0.71      0.76       396
+          12       0.62      0.54      0.58       393
+          13       0.78      0.73      0.76       396
+          14       0.75      0.73      0.74       394
+          15       0.63      0.82      0.71       398
+          16       0.59      0.69      0.63       364
+          17       0.83      0.77      0.80       376
+          18       0.68      0.43      0.53       310
+          19       0.48      0.25      0.33       251
+
+    accuracy                           0.69      7532
+   macro avg       0.69      0.67      0.67      7532
+weighted avg       0.69      0.69      0.68      7532
+
+Running time: 429.843225479126
+

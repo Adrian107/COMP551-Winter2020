@@ -1,0 +1,188 @@
+rf starts
+Best params: {'rf__max_depth': 500, 'rf__max_features': 10, 'rf__n_estimators': 500, 'rf__n_jobs': 11}
+Validation results: {'mean_fit_time': array([61.20200262]), 'std_fit_time': array([3.75543055]), 'mean_score_time': array([4.53960838]), 'std_score_time': array([3.2453158]), 'param_rf__max_depth': masked_array(data=[500],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_rf__max_features': masked_array(data=[10],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_rf__n_estimators': masked_array(data=[500],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_rf__n_jobs': masked_array(data=[11],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'rf__max_depth': 500, 'rf__max_features': 10, 'rf__n_estimators': 500, 'rf__n_jobs': 11}], 'split0_test_score': array([0.8638]), 'split1_test_score': array([0.861]), 'split2_test_score': array([0.868]), 'split3_test_score': array([0.8572]), 'split4_test_score': array([0.8646]), 'mean_test_score': array([0.86292]), 'std_test_score': array([0.00362789]), 'rank_test_score': array([1]), 'split0_train_score': array([1.]), 'split1_train_score': array([0.99995]), 'split2_train_score': array([0.99995]), 'split3_train_score': array([1.]), 'split4_train_score': array([1.]), 'mean_train_score': array([0.99998]), 'std_train_score': array([2.44948974e-05])}
+Test accuracy: 0.84772
+Classification report:               precision    recall  f1-score   support
+
+           0       0.86      0.83      0.85     12500
+           1       0.84      0.86      0.85     12500
+
+    accuracy                           0.85     25000
+   macro avg       0.85      0.85      0.85     25000
+weighted avg       0.85      0.85      0.85     25000
+
+Running time: 110.28493118286133
+dt starts
+Best params: {'dt__max_features': 'auto', 'dt__splitter': 'best'}
+Validation results: {'mean_fit_time': array([2.89054227]), 'std_fit_time': array([0.05706926]), 'mean_score_time': array([0.50990777]), 'std_score_time': array([0.00980037]), 'param_dt__max_features': masked_array(data=['auto'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_dt__splitter': masked_array(data=['best'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'dt__max_features': 'auto', 'dt__splitter': 'best'}], 'split0_test_score': array([0.6414]), 'split1_test_score': array([0.6612]), 'split2_test_score': array([0.6596]), 'split3_test_score': array([0.6586]), 'split4_test_score': array([0.6582]), 'mean_test_score': array([0.6558]), 'std_test_score': array([0.00727406]), 'rank_test_score': array([1]), 'split0_train_score': array([1.]), 'split1_train_score': array([1.]), 'split2_train_score': array([1.]), 'split3_train_score': array([1.]), 'split4_train_score': array([1.]), 'mean_train_score': array([1.]), 'std_train_score': array([0.])}
+Test accuracy: 0.66392
+Classification report:               precision    recall  f1-score   support
+
+           0       0.66      0.68      0.67     12500
+           1       0.67      0.65      0.66     12500
+
+    accuracy                           0.66     25000
+   macro avg       0.66      0.66      0.66     25000
+weighted avg       0.66      0.66      0.66     25000
+
+Running time: 15.448160648345947
+svm starts
+Best params: {'svm__C': 0.1, 'svm__loss': 'hinge', 'svm__max_iter': 2000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2'}
+Validation results: {'mean_fit_time': array([2.46758423]), 'std_fit_time': array([0.03597656]), 'mean_score_time': array([0.52350001]), 'std_score_time': array([0.02325377]), 'param_svm__C': masked_array(data=[0.1],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_svm__loss': masked_array(data=['hinge'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_svm__max_iter': masked_array(data=[2000],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_svm__multi_class': masked_array(data=['ovr'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_svm__penalty': masked_array(data=['l2'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'svm__C': 0.1, 'svm__loss': 'hinge', 'svm__max_iter': 2000, 'svm__multi_class': 'ovr', 'svm__penalty': 'l2'}], 'split0_test_score': array([0.8682]), 'split1_test_score': array([0.872]), 'split2_test_score': array([0.8786]), 'split3_test_score': array([0.866]), 'split4_test_score': array([0.8736]), 'mean_test_score': array([0.87168]), 'std_test_score': array([0.00438288]), 'rank_test_score': array([1]), 'split0_train_score': array([0.8969]), 'split1_train_score': array([0.8984]), 'split2_train_score': array([0.89615]), 'split3_train_score': array([0.8971]), 'split4_train_score': array([0.89775]), 'mean_train_score': array([0.89726]), 'std_train_score': array([0.00076511])}
+Test accuracy: 0.87248
+Classification report:               precision    recall  f1-score   support
+
+           0       0.89      0.85      0.87     12500
+           1       0.86      0.90      0.88     12500
+
+    accuracy                           0.87     25000
+   macro avg       0.87      0.87      0.87     25000
+weighted avg       0.87      0.87      0.87     25000
+
+Running time: 13.813110589981079
+logistic starts
+Best params: {'logistic__C': 1, 'logistic__max_iter': 500, 'logistic__n_jobs': -1, 'logistic__penalty': 'l2', 'logistic__solver': 'sag'}
+Validation results: {'mean_fit_time': array([2.99648032]), 'std_fit_time': array([0.03446584]), 'mean_score_time': array([0.54208994]), 'std_score_time': array([0.02204743]), 'param_logistic__C': masked_array(data=[1],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_logistic__max_iter': masked_array(data=[500],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_logistic__n_jobs': masked_array(data=[-1],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_logistic__penalty': masked_array(data=['l2'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_logistic__solver': masked_array(data=['sag'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'logistic__C': 1, 'logistic__max_iter': 500, 'logistic__n_jobs': -1, 'logistic__penalty': 'l2', 'logistic__solver': 'sag'}], 'split0_test_score': array([0.8888]), 'split1_test_score': array([0.888]), 'split2_test_score': array([0.8908]), 'split3_test_score': array([0.887]), 'split4_test_score': array([0.8856]), 'mean_test_score': array([0.88804]), 'std_test_score': array([0.00174539]), 'rank_test_score': array([1]), 'split0_train_score': array([0.93425]), 'split1_train_score': array([0.93755]), 'split2_train_score': array([0.9342]), 'split3_train_score': array([0.9357]), 'split4_train_score': array([0.9367]), 'mean_train_score': array([0.93568]), 'std_train_score': array([0.00132461])}
+Test accuracy: 0.87964
+Classification report:               precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88     12500
+           1       0.88      0.88      0.88     12500
+
+    accuracy                           0.88     25000
+   macro avg       0.88      0.88      0.88     25000
+weighted avg       0.88      0.88      0.88     25000
+
+Running time: 15.26027536392212
+knn starts
+Best params: {'knn__algorithm': 'auto', 'knn__n_jobs': -1, 'knn__n_neighbors': 5, 'knn__weights': 'distance'}
+Validation results: {'mean_fit_time': array([2.45838952]), 'std_fit_time': array([0.17759824]), 'mean_score_time': array([6.64919853]), 'std_score_time': array([0.17272807]), 'param_knn__algorithm': masked_array(data=['auto'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_knn__n_jobs': masked_array(data=[-1],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_knn__n_neighbors': masked_array(data=[5],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_knn__weights': masked_array(data=['distance'],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'knn__algorithm': 'auto', 'knn__n_jobs': -1, 'knn__n_neighbors': 5, 'knn__weights': 'distance'}], 'split0_test_score': array([0.7854]), 'split1_test_score': array([0.7686]), 'split2_test_score': array([0.7842]), 'split3_test_score': array([0.785]), 'split4_test_score': array([0.7768]), 'mean_test_score': array([0.78]), 'std_test_score': array([0.00651153]), 'rank_test_score': array([1]), 'split0_train_score': array([1.]), 'split1_train_score': array([1.]), 'split2_train_score': array([1.]), 'split3_train_score': array([1.]), 'split4_train_score': array([1.]), 'mean_train_score': array([1.]), 'std_train_score': array([0.])}
+Test accuracy: 0.64728
+Classification report:               precision    recall  f1-score   support
+
+           0       0.64      0.69      0.66     12500
+           1       0.66      0.61      0.63     12500
+
+    accuracy                           0.65     25000
+   macro avg       0.65      0.65      0.65     25000
+weighted avg       0.65      0.65      0.65     25000
+
+Running time: 86.01081275939941
+ada starts
+Best params: {'ada__base_estimator': DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=None, splitter='best'), 'ada__learning_rate': 0.1, 'ada__n_estimators': 1000}
+Validation results: {'mean_fit_time': array([24.01806026]), 'std_fit_time': array([0.50990029]), 'mean_score_time': array([0.51730895]), 'std_score_time': array([0.00748301]), 'param_ada__base_estimator': masked_array(data=[DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=None, splitter='best')],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_ada__learning_rate': masked_array(data=[0.1],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_ada__n_estimators': masked_array(data=[1000],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'ada__base_estimator': DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=None, splitter='best'), 'ada__learning_rate': 0.1, 'ada__n_estimators': 1000}], 'split0_test_score': array([0.7094]), 'split1_test_score': array([0.7134]), 'split2_test_score': array([0.725]), 'split3_test_score': array([0.7086]), 'split4_test_score': array([0.7084]), 'mean_test_score': array([0.71296]), 'std_test_score': array([0.006287]), 'rank_test_score': array([1]), 'split0_train_score': array([1.]), 'split1_train_score': array([1.]), 'split2_train_score': array([1.]), 'split3_train_score': array([1.]), 'split4_train_score': array([1.]), 'mean_train_score': array([1.]), 'std_train_score': array([0.])}
+Test accuracy: 0.713
+Classification report:               precision    recall  f1-score   support
+
+           0       0.71      0.72      0.72     12500
+           1       0.72      0.71      0.71     12500
+
+    accuracy                           0.71     25000
+   macro avg       0.71      0.71      0.71     25000
+weighted avg       0.71      0.71      0.71     25000
+
+Running time: 62.14045834541321
+nb starts
+Best params: {'nb__alpha': 1.0, 'nb__fit_prior': False}
+Validation results: {'mean_fit_time': array([2.32246161]), 'std_fit_time': array([0.03288893]), 'mean_score_time': array([0.50591178]), 'std_score_time': array([0.01297633]), 'param_nb__alpha': masked_array(data=[1.0],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'param_nb__fit_prior': masked_array(data=[False],
+             mask=[False],
+       fill_value='?',
+            dtype=object), 'params': [{'nb__alpha': 1.0, 'nb__fit_prior': False}], 'split0_test_score': array([0.8654]), 'split1_test_score': array([0.8634]), 'split2_test_score': array([0.8736]), 'split3_test_score': array([0.871]), 'split4_test_score': array([0.862]), 'mean_test_score': array([0.86708]), 'std_test_score': array([0.00447321]), 'rank_test_score': array([1]), 'split0_train_score': array([0.91595]), 'split1_train_score': array([0.9172]), 'split2_train_score': array([0.91795]), 'split3_train_score': array([0.9155]), 'split4_train_score': array([0.91605]), 'mean_train_score': array([0.91653]), 'std_train_score': array([0.00090477])}
+Test accuracy: 0.83208
+Classification report:               precision    recall  f1-score   support
+
+           0       0.80      0.88      0.84     12500
+           1       0.87      0.78      0.82     12500
+
+    accuracy                           0.83     25000
+   macro avg       0.84      0.83      0.83     25000
+weighted avg       0.84      0.83      0.83     25000
+
+Running time: 13.782146453857422
