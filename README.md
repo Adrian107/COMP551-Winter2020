@@ -63,7 +63,7 @@ Projects for COMP 551 Winter 2020
 
 **AND**
 
-**Pytorch CNN Convoluntional Neuron Network**
+* **Pytorch CNN Convoluntional Neuron Network**
 
   **Layers:**
   * Convoluntional layer (Extract different features from *various feature maps*)
